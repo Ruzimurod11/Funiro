@@ -1,0 +1,78 @@
+@font-face {
+	font-family: "icons";
+	font-display: swap;
+	src:
+		url("../fonts/icons.woff") format("woff"),
+		url("../fonts/icons.woff2#icons") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class^="__icon-"],
+[class*="__icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+.__icon-arrow-down:before {
+	content: "\e900";
+}
+.__icon-arrow-link:before {
+	content: "\e901";
+	color: #266bdb;
+}
+.__icon-cart:before {
+	content: "\e902";
+	// color: #262f56;
+}
+.__icon-favorite:before {
+	content: "\e903";
+	// color: #262f56;
+}
+.__icon-location:before {
+	content: "\e904";
+}
+.__icon-phone:before {
+	content: "\e905";
+	// color: #898989;
+}
+.__icon-search:before {
+	content: "\e906";
+}
+.__icon-send:before {
+	content: "\e907";
+	color: #fff;
+}
+.__icon-share:before {
+	content: "\e908";
+	color: #fff;
+}
+.__icon-arrow-down1:before {
+	content: "\e909";
+}
+.__icon-arrow-link1:before {
+	content: "\e90a";
+	color: #fff;
+}
+.__icon-cart1:before {
+	content: "\e90b";
+	color: #262f56;
+}
+.__icon-favorite1:before {
+	content: "\e90c";
+	color: #262f56;
+}
